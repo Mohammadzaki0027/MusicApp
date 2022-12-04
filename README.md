@@ -2,7 +2,7 @@
 <br/>
 <p>Music Poster App
 Music App where user can select music Poster and can edit the music name.
-Fiter on the Basis of Genre and Year of Relased.</p>
+Filter on the Basis of Genre and Year of Relased.</p>
 
 ![musichomepage](https://user-images.githubusercontent.com/101575981/205494002-bf1ccf77-b63f-4e41-a4e7-44368cd99a91.PNG)
 
