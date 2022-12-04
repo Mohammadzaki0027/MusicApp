@@ -7,12 +7,12 @@ import styles from "../Styles/Music.module.css";
 const MainMusic = () => {
   const dispatch = useDispatch();
   const Musicrecord = useSelector((store) => store.Appreducer.musicRecord);
-  const Recordarray = useSelector((store) => store);
+
   const [searchParams] = useSearchParams();
   const loading = useSelector((store) => store.Appreducer.isLoading);
 
   const location = useLocation();
-  // console.log(searchParams.getAll("genre"));
+console.log(location,"location");
   React.useEffect(() => {
     if (location || Musicrecord.length === 0) {
       const sortBy = searchParams.get("sortBy");
@@ -34,7 +34,7 @@ const MainMusic = () => {
       ) : (
         <>
           {Musicrecord?.map((e) => (
-            <div className={styles.musicrecord} key={e.id}>
+            <div className={styles.musicrecord} key={e.id} >
               <Link to={`/music/${e.id}`}>
                 <div>
                   <h4>Name:{e.name}</h4>

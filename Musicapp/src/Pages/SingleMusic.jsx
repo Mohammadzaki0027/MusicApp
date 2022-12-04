@@ -21,7 +21,7 @@ const SingleMusic = () => {
     if (id) {
       const found = Musicrecord.find((albums) => albums.id === id);
       setSingleMusicData(found);
-      //  setSingleMusicData({data:"zaki"})
+
     }
   }, [id, Musicrecord]);
   React.useEffect(() => {}, []);

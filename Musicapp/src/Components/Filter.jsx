@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../Styles/Music.module.css";
 import { useSearchParams } from "react-router-dom";
-  const Filter = () => {
+const Filter = () => {
   let [searchParams, setSearchParams] = useSearchParams();
   const initialparams = searchParams.getAll("genre");
   const [category, setCategory] = React.useState(initialparams || []);
@@ -29,7 +29,6 @@ import { useSearchParams } from "react-router-dom";
       setSearchParams({ genre: category, sortBy: sortBy });
     }
   }, [category, setSearchParams, sortBy]);
-  // console.log(searchParams.getAll("genre"));
 
   return (
     <div className={styles.filterapp1}>
@@ -83,27 +82,26 @@ import { useSearchParams } from "react-router-dom";
       </fieldset>
       <fieldset>
         <legend>Sort </legend>
-      <div onChange={handlesort}>
-        <div>
-          <input
-            type="radio"
-            value="asc"
-            name="sortBy"
-            defaultChecked={sortBy === "asc"}
-          />
-          <label>Ascending</label>
+        <div onChange={handlesort}>
+          <div>
+            <input
+              type="radio"
+              value="asc"
+              name="sortBy"
+              defaultChecked={sortBy === "asc"}
+            />
+            <label>Ascending</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="sortBy"
+              value="desc"
+              defaultChecked={sortBy === "desc"}
+            />
+            <label>Decending</label>
+          </div>
         </div>
-        <div>
-          <input
-            type="radio"
-            name="sortBy"
-            value="desc"
-            defaultChecked={sortBy === "desc"}
-          />
-          <label>Decending</label>
-        </div>
-   
-      </div>
       </fieldset>
     </div>
   );
