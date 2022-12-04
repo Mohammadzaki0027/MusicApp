@@ -28,6 +28,7 @@ const Filter = () => {
     if (category || sortBy) {
       setSearchParams({ genre: category, sortBy: sortBy });
     }
+
   }, [category, setSearchParams, sortBy]);
 
   return (

@@ -12,14 +12,15 @@ const MainMusic = () => {
   const loading = useSelector((store) => store.Appreducer.isLoading);
 
   const location = useLocation();
-console.log(location,"location");
+
   React.useEffect(() => {
+    console.log(location);
     if (location || Musicrecord.length === 0) {
       const sortBy = searchParams.get("sortBy");
       const queryparams = {
         params: {
           genre: searchParams.getAll("genre"),
-          _sort: sortBy && "year",
+          _sort: sortBy &&"year",
           _order: sortBy,
         },
       };

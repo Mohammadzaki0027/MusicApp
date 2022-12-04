@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import styles from "../Styles/Music.module.css";
-import { border, Box, Input } from "@chakra-ui/react";
+import { border, Box, Button, Input } from "@chakra-ui/react";
 import { editmusic, getmusic } from "../Redux/Appreducer/action";
 const EditMusic = () => {
   const [musicname, setMusicname] = React.useState("");
@@ -57,7 +57,7 @@ dispatch(getmusic())
               setMusicgenre(e.target.value);
             }}
           ></Input>
-          <button type="submit">Submit</button>
+          <button type="submit" >Submit</button>
         </form>
       </div>
     </div>

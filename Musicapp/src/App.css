@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+.darkclass{
+  background-color: #1A1124;
+color: white;
+height: auto;
+
+
+
+}
 
 .App-logo {
   height: 40vmin;
@@ -15,7 +23,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
