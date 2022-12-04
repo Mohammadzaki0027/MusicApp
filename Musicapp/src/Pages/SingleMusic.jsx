@@ -31,7 +31,7 @@ const SingleMusic = () => {
       <div className={styles.btn}>
         <h1 className={styles.navtext}>SingleMusic</h1>
         <Link to={"/"}>
-          <Button>Go to HomePage</Button>
+          <Button colorScheme="twitter">Go to HomePage</Button>
         </Link>
       </div>
 

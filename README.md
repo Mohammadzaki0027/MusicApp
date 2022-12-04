@@ -1,7 +1,7 @@
 <h1>Music App</h1>
 <br/>
-<p>Music App
-Music App where user can select music and can edit the music name.
+<p>Music Poster App
+Music App where user can select music Poster and can edit the music name.
 Fiter on the Basis of Genre and Year of Relased.</p>
 
 ![Musichomepage](https://user-images.githubusercontent.com/101575981/184173686-20c81596-9361-4648-8c4e-e601aa290482.PNG)
