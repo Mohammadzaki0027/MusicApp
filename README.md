@@ -8,7 +8,8 @@ Fiter on the Basis of Genre and Year of Relased.</p>
 
 
 
-<h1>Fiter Page</h1>
+<h1>Filter Page</h1>
 Fiter is done on the basis of genre and year you can see the the only K-Pop genre  and country genre music are displaying on the App
 
-![filter](https://user-images.githubusercontent.com/101575981/184173697-461e5435-5e2c-42a0-9ee9-b3bddab515ce.PNG)
+![musichomepage](https://user-images.githubusercontent.com/101575981/205494045-b8c4cbae-a78a-427f-875b-b8f6104aebe5.PNG)
+
