@@ -4,7 +4,8 @@
 Music App where user can select music Poster and can edit the music name.
 Fiter on the Basis of Genre and Year of Relased.</p>
 
-![Musichomepage](https://user-images.githubusercontent.com/101575981/184173686-20c81596-9361-4648-8c4e-e601aa290482.PNG)
+![musichomepage](https://user-images.githubusercontent.com/101575981/205494002-bf1ccf77-b63f-4e41-a4e7-44368cd99a91.PNG)
+
 
 
 <h1>Fiter Page</h1>
