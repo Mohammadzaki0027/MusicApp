@@ -14,7 +14,7 @@ const MainMusic = () => {
   const location = useLocation();
 
   React.useEffect(() => {
-    console.log(location);
+
     if (location || Musicrecord.length === 0) {
       const sortBy = searchParams.get("sortBy");
       const queryparams = {
